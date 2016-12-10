@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="addDebt.css" rel="stylesheet">  
+
+<body>
+
+    <div class="page-header">
+        <h1>Title text</h1>
+    </div>
+
+    <form class="col-md-4 col-md-offset-4">
+        <div class="form-group">
+            <label>Asset</label>
+            <input type="text" class="form-control" id="alpha" placeholder="Asset" required>
+        </div>
+
+        <div class="form-group">
+            <label>Balance</label>
+            <input type="number" class="form-control" id="balance" placeholder="$00.00" required>
+        </div>
+
+        <div class="form-group">
+            <label>Principal</label>
+            <input type="number" class="form-control" id="principal" placeholder="$00.00" required>
+        </div>  
+
+        <div class="form-group">
+            <label>Interest Rate</label>
+            <input type="number" class="form-control" id="interest" placeholder="0.00%" required>
+        </div>
+
+        <div class="form-group">
+            <label>Time (in years)</label>
+            <input type="number" class="form-control" id="years" placeholder="00" required>
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary">Add More</button>
+            <button onclick="location.href='login.html'"  class="btn btn-default">Done</button>
+        </div>
+    </form>
+
+</body>
