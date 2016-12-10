@@ -1,0 +1,5 @@
+<% @debts.each do |debt| %>
+    <%= link_to debt.name, debt %>
+<% end %>
+
+<%= link_to 'Create new debt', new_debt_path %>
