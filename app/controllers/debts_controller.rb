@@ -4,14 +4,7 @@ def index
 end
 
 def show
-    @debt = Debt.find(params[:id])
-
-    p = @debt.principal
-    r = @debt.interest/12
-    n = @debt.time
-    b = @debt.balance
-    # @a = p * (((r(1+r))**n)/(((1+r)**n)-1))
-
+   
 
 
 end
@@ -28,7 +21,7 @@ def create
 end
 
 def edit
-    @debt = Debt.find(params[:id])
+    
 end
 
 def update

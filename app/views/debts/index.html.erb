@@ -1,5 +1,27 @@
-<% @debts.each do |debt| %>
-    <%= link_to debt.name, debt %>
-<% end %>
 
-<%= link_to 'Create new debt', new_debt_path %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+
+<div class="page-header">
+    <h1>Eldurli</h1>
+</div>
+
+<div class="jumbotron">
+    <h1>Eldurli!</h1>
+    <p>We help you eliminate your debt!</p>
+    <p>
+        <a class="btn btn-primary btn-lg" href="http://localhost:3000/debts/3" role="button">Sign up!</a>
+        <a class="btn btn-primary btn-lg" href="login.html" role="button">Login</a>
+    </p>
+
+</div>
+
+</body>
+</html>
